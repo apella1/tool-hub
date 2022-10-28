@@ -1,0 +1,29 @@
+.search__form input {
+    padding: 0.5rem;
+    width: 70vw;
+    margin: 1rem 2rem;
+    border-radius: 5px;
+}
+
+.search__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.search__form button {
+    border-radius: 5px;
+    background-color: grey;
+    color: white;
+    align-self: center;
+}
+
+/* Media Queries */
+
+/* Mobile devices */
+
+@media only screen and (max-width: 550px) {
+    .search__form button {
+        width: 50vw;
+    }
+}

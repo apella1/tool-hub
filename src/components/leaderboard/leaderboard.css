@@ -1,0 +1,32 @@
+.leaderboard {
+    display: flex;
+    flex-direction: column;
+}
+
+.leaderboard h2 {
+    align-self: center;
+}
+
+.navigation__links {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.scores-period {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scores-period button {
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(0, 0, 255);
+}
+
+.scores-period button:hover {
+    background-color: rgba(0, 0, 255, 0.7);
+}
+

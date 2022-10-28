@@ -1,0 +1,22 @@
+.navigation {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.navigation__links { 
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.5rem;
+}
+
+.navigation__links a { 
+    margin:0 0.5rem;
+}
+
+.navigation__title {
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    justify-content: flex-start;
+}

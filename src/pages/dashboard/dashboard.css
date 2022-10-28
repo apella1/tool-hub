@@ -1,0 +1,14 @@
+.navigation__links {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.dashboard__items {
+    height: 100vh;
+    padding: rem;
+    margin: 2rem;
+}
+
+.dashboard__items p span {
+    font-style: bold;
+}

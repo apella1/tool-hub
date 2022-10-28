@@ -1,0 +1,45 @@
+.citation {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.citation a {
+    align-self: center;
+}
+
+.citation h3 {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.citation__text {
+    display: flex;
+    justify-content: center;
+    margin: 1rem 1rem 1rem 2rem;
+}
+
+.citation__heading span {
+    font-style: italic;
+}
+
+.citation__buttons { 
+    display: flex;
+    justify-content: center;
+}
+
+.citation__buttons--fix {
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    padding: 1rem 2rem;
+    margin: 2rem;
+}
+
+.citation__buttons--next {
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    padding: 1rem 2rem;
+    margin: 2rem;
+}

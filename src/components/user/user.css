@@ -1,0 +1,23 @@
+.user__info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user__info img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.user__info h3 {
+    margin: 1rem;
+}
+
+.users {
+    padding: 1rem;
+    margin: 2rem;
+}
+
+.users p {
+    margin: 1rem;
+}
