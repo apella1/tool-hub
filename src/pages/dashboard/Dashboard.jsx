@@ -22,5 +22,3 @@ const Dashboard = () => {
 }
 
 export default Dashboard;
-
-// todo how to write tests for the react components 
